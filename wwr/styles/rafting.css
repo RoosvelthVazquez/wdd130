@@ -75,5 +75,6 @@ article {
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 200px;
+    height: 150px;
 }
