@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #228B57;
+    --primary-color: #3a3a3a;
     --secondary-color: #F5F5F5;
     --accent1-color: #0A3D62;
     --accent2-color: #ffd166;
@@ -102,7 +102,6 @@ header {
     width: 100px;
     float: right;
 }
-
 
 .navigation {
     display: flex;
