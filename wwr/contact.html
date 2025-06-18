@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Roosvelth Vazquez">
+    <meta name="description" content="contact us, this is a page specially to contain infomation for the costumers">
+
+    <!-- font 1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- font 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- css code -->
+    <link rel="stylesheet" href="styles/rafting-contact-us.css">
+
+    <title>Rapid Rush Rafting - Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="images/logo1.png" alt="Rafting Company Logo"></div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="villian">
+                <div class="h2history">
+                    <h1>Contact US</h1>
+                </div>
+                <div>
+                    <p>We are located in</p>
+                </div>
+                <div>
+                    <p>Call us</p>
+                </div>
+                <div>
+                    <p>Send an email</p>
+                </div>
+                <div class="contactinfo">
+                    <img src="images/map.png" alt="map">
+                    <p>Av Candido Navarro S/N congregación piedra pinta, El Encanto, 93650 Tlapacoyan, Ver.</p>
+                </div>
+                <div class="contactinfo alinear">
+                    <img src="images/telefono.png" alt="telefono">
+                    <p>782 157 2020</p>
+                </div>
+                <div class="contactinfo">
+                    <img src="images/email.png" alt="emial">
+                    <p>rapidrush@company.com</p>
+                </div>
+                <div class="color">
+                    <div class="rectangle"><p>The Bobos River</p><p>The Bobos River is a tributary of the Nautla. It originates on the northern slope of Cofre de Perote volcano, and flows northwards through a canyon before joining the Nautla, which then empties eastwards into the Gulf of Mexico. The Bobos River canyon separates the Sierra de Chiconquiaco on the east from the Sierra Madre Oriental and Trans-Mexican Volcanic Belt on the west.</p>
+                    </div>
+                </div>
+                <div class="iframe color">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21210.556454557365!2d-97.1791636420278!3d19.986171455589158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1750186274473!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="antagonist">
+                <div class="h2adventure"><h2>Rapid Rush Rafting's Team</h2></div>
+                <div class="job">Rafting guide and safety trainer</div>
+                <div class="job">Rafting guide</div>
+                <div class="job">Sinior guide and gear manager</div>
+                <div class="job">Logistics and transportation lead</div>
+                <div class="aline"><figure><img class="pics" src="images/worker1.webp" alt="employee1"><figcaption>Johani Jimenez</figcaption></figure></div>
+                <div class="aline"><figure><img class="pics" src="images/worker2.webp" alt="employee2"><figcaption>Azaf Moncada</figcaption></figure></div>
+                <div class="aline"><figure><img class="pics" src="images/worker3.webp" alt="employee3"><figcaption>Hanna Mendenhall</figcaption></figure></div>
+                <div class="aline"><figure><img class="pics" src="images/worker4.webp" alt="employee4"><figcaption>Landon Hurts</figcaption></figure></div>
+            </div>
+        </section>
+
+        <form>
+            <fieldset>
+                <!-- user's name -->
+                <legend>Comments</legend>
+                <div class="form-item column2">
+                    <label for="username">User Name: </label>
+                    <input type="text" id="username" name="username"><br>
+                </div>
+
+                <!-- emial address -->
+                <div class="form-item column2">
+                    <label for="emailaddress">Emial</label>
+                    <input type="email" id="emailaddress" name="emailaddress"><br>
+                </div>
+
+                <!-- user's required -->
+                 <div class="form-item">
+                    <label class="purpose" for="inquiry">What would you like to do?</label>
+                                <!-- type radio -->
+                    <div class="radio">
+                        <input type="radio" id="inquiry" name="purpose" value="inquiry">
+                        <label for="inquiry">General Inquiry</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="question" name="purpose" value="question">
+                        <label for="question">Reservation Question</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label><br>
+                    </div>
+                 </div>
+
+                 <!-- text area -->
+                  <label class="label" for="feedback">Please write here what you want to comment</label>
+                  <textarea name="feedback" id="feedback" rows="4" placeholder="Please type here"></textarea><br>
+
+                  <!-- checkbox -->
+                   <div class="form-item column2 column1">
+                   <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                   <input type="checkbox" id="subscribe" name="subscribe"><br>
+                   </div>
+            </fieldset>
+            <button class="botton" type="submit">Submit</button>
+        </form>
+
+    </main>
+
+    <footer>
+        <nav class="footer"><p>© | 2025 Rapid Rush Rafting | Roosvelth Vazquez</p></nav>
+        <nav class="wireframe"><a href="https://app.moqups.com/QjSKtNYwz7jOTM8K1PeOAbdHSclNaDQv/view/page/ad64222d5" target="_blank"><p>Wireframe</p></a></nav>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/face2.png" alt="facebook"></a>
+            <a href="https://www.messenger.com" target="_blank"><img src="images/messenger.webp" alt="messenger"></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="images/whatsapp.png" alt="whatsapp"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
