@@ -1,0 +1,269 @@
+:root {
+    --primary-color: #3a3a3a;
+    --secondary-color: #F5F5F5;
+    --accent1-color: #0A3D62;
+    --accent2-color: #ffd166;
+    --heading-font: "Montserrat", sans-serif;
+    --body-font: "Roboto", sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+}
+
+nav,
+p,
+section {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    border-bottom: 1px solid #F5F5F5;
+    max-width: 1000px;
+}
+
+.logo img {
+    margin: 3px;
+    width: 100px;
+    float: right;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    font-family: var(--body-font)
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    color: var(--secondary-color);
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navigation a:hover {
+    color: var(--accent2-color);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* call action */
+.action {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    height: 160px;
+}
+
+.action a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.action h1 {
+    font-family: var(--body-font);
+    text-align: center;
+}
+
+.contact {
+    background-color: var(--primary-color);
+    width: 300px;
+    margin-left: 32%;
+    border-radius: 20px;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.button {
+    width: 130px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--accent2-color);
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: var(--secondary-color);
+}
+
+.button a {
+    color: var(--primary-color);
+}
+
+/* Trips */
+.trip-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px 1fr 70px;
+    margin-top: 10px;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+}
+
+.trip-grid img {
+    width: 250px;
+    margin-left: 15px;
+}
+
+.box1 {
+    grid-column: 1 / 4;
+    justify-items: center;
+}
+
+.trip-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.trip-card h2 {
+    font-family: var(--body-font);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box1 h2 {
+    font-family: var(--body-font);
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.book {
+    margin-left: 35%;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px;
+    background-color: var(--accent2-color);
+    font-size: 1rem;
+}
+
+.book:hover {
+    background-color: var(--secondary-color);
+}
+
+/* table */
+.trip-table {
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width: 900px;
+  padding: 20px;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.trip-table h2 {
+  text-align: center;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+  font-family: var(--heading-font);
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--body-font);
+}
+
+.trip-table th,
+.trip-table td {
+  padding: 16px;
+  border: 1px solid var(--primary-color);
+  text-align: center;
+}
+
+.trip-table th {
+  background-color: var(--accent1-color);
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+ .trip-table tr {
+  background-color: var(--secondary-color);
+}
+
+.trip-table tr:hover {
+  background-color: var(--accent2-color); 
+}
+
+
+/* footer */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+    margin: 10px auto; 
+}
+
+.footer {
+    flex-grow: 7;
+    text-align: right;
+    margin: auto;
+    color: var(--secondary-color);
+}
+
+.socialmedia {
+    flex-grow: 1;
+}
+
+footer img {
+    width: 30px;
+    margin: 10px;
+}
+
+.wireframe a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.wireframe a:hover {
+    color: var(--accent2-color);
+    font-weight: 700;
+    text-decoration: underline;
+}
